@@ -121,7 +121,7 @@ class CubeEnvironment extends Component {
 		this.setupMouse()
 
 		// ADD POST PROCESSING
-		this.setupPostProcessing();
+		// this.setupPostProcessing();
 
 		this.mount.appendChild(this.renderer.domElement); // mount using React ref
 	};
@@ -233,7 +233,7 @@ class CubeEnvironment extends Component {
 	 * @memberof PortfolioEnvironment
 	 */
 	setupFog = () => {
-		this.scene.fog = new THREE.FogExp2(new THREE.Color('white'), 0.02); // Color, Density
+		// this.scene.fog = new THREE.FogExp2(new THREE.Color('white'), 0.02); // Color, Density
 	};
 
 	/**
